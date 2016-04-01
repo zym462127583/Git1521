@@ -14,6 +14,7 @@
 		BC3D0AD21CAE50F700B1F828 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC3D0AD11CAE50F700B1F828 /* Assets.xcassets */; };
 		BC3D0AD51CAE50F700B1F828 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC3D0AD31CAE50F700B1F828 /* LaunchScreen.storyboard */; };
 		BC3D0AE31CAE560B00B1F828 /* PersonA.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3D0AE21CAE560B00B1F828 /* PersonA.m */; };
+		BC3D0ADF1CAE54E000B1F828 /* PersonB.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3D0ADE1CAE54E000B1F828 /* PersonB.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		BC3D0AD61CAE50F700B1F828 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC3D0AE11CAE560B00B1F828 /* PersonA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonA.h; sourceTree = "<group>"; };
 		BC3D0AE21CAE560B00B1F828 /* PersonA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonA.m; sourceTree = "<group>"; };
+		BC3D0ADD1CAE54E000B1F828 /* PersonB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonB.h; sourceTree = "<group>"; };
+		BC3D0ADE1CAE54E000B1F828 /* PersonB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonB.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				BC3D0AE01CAE55FC00B1F828 /* A */,
+				BC3D0ADC1CAE54C100B1F828 /* B */,
 				BC3D0AC81CAE50F700B1F828 /* AppDelegate.h */,
 				BC3D0AC91CAE50F700B1F828 /* AppDelegate.m */,
 				BC3D0ACB1CAE50F700B1F828 /* ViewController.h */,
@@ -90,6 +94,15 @@
 				BC3D0AE21CAE560B00B1F828 /* PersonA.m */,
 			);
 			name = A;
+            sourceTree = "<group>";
+        };
+		BC3D0ADC1CAE54C100B1F828 /* B */ = {
+			isa = PBXGroup;
+			children = (
+				BC3D0ADD1CAE54E000B1F828 /* PersonB.h */,
+				BC3D0ADE1CAE54E000B1F828 /* PersonB.m */,
+			);
+			name = B;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +177,7 @@
 			files = (
 				BC3D0AE31CAE560B00B1F828 /* PersonA.m in Sources */,
 				BC3D0ACD1CAE50F700B1F828 /* ViewController.m in Sources */,
+				BC3D0ADF1CAE54E000B1F828 /* PersonB.m in Sources */,
 				BC3D0ACA1CAE50F700B1F828 /* AppDelegate.m in Sources */,
 				BC3D0AC71CAE50F700B1F828 /* main.m in Sources */,
 			);
@@ -312,6 +326,7 @@
 				BC3D0ADB1CAE50F700B1F828 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
